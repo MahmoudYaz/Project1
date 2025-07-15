@@ -707,7 +707,7 @@ input[type="radio"]:checked {
     transition: 0.8s;
     visibility: visible;
 } 
-/* ////////////////////////////////////Reviews//////////////////////// */
+/* ////////////////////////////////////Reviews////////////////////////////////////////////// */
 .Reviews-container{
     width: 100%;
     height: 100vh;
@@ -869,10 +869,10 @@ input[type="radio"]:checked {
     color: #294458;
 }
 .Creators-container-parent-div:hover .Creators-container-parent-div-info h2{
-    color: #ff931f;
+    color: #a26d34;
 }
 .Creators-container-parent-div:hover .Creators-container-parent-div-info p{
-    color: #f8bb7a;
+    color: #a07f5cef;
 }
 .Creators-container-parent-div::after{
     position: absolute;
@@ -884,6 +884,7 @@ input[type="radio"]:checked {
     background-color: #3e607a;
     border-radius: 6px;
     opacity: 0.5; 
+    z-index: -1;
 }
 .Creators-container-parent-div:hover::after{
     width: 20%;
@@ -901,6 +902,7 @@ input[type="radio"]:checked {
     background-color: #3e607a;
     border-radius: 6px;
     opacity: 0.5;
+    z-index: -1;
 }
 .Creators-container-parent-div:hover::before{
     width: 70%;
@@ -969,11 +971,9 @@ input[type="radio"]:checked {
     color: #294458;
 }
 .Insights-container-parent-div:hover .Insights-container-parent-div-info h2{
-    color: #ff931f;
     color: #905413ef;
 }
 .Insights-container-parent-div:hover .Insights-container-parent-div-info p{
-    color: #f8bb7a;
     color: #a07f5cef;
 }
 .Insights-container-parent-div::after{
