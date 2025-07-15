@@ -248,6 +248,9 @@ height: 5000px;
     line-height: 50px;
     font-weight: bold;
 }
+.about-parent-div:hover a{
+  color: #a26d34ef;
+}
 .about-parent-div::after{
     position: absolute;
     content: "";
@@ -281,7 +284,6 @@ height: 5000px;
     margin: auto;
     overflow: auto;
     margin-top: 23px;
-
 }
 .portfolio-container-parent-div1{
     width: 32%;
@@ -299,20 +301,18 @@ height: 5000px;
     width: 100%;
     height: 100%;
     border-radius: 6px;
-    
 }
 .portfolio-container-parent-overlay{
-    background-color: #1b4b708e;
+    background-color: #1b4b70a6;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     visibility: hidden;
-    transition: 0.5s ;
+    transition: 0.8s ;
     opacity: 0;
     padding: 18px 14px;
-    
 }
 .portfolio-container-parent-div1:hover .portfolio-container-parent-overlay{
     visibility: visible;
@@ -325,7 +325,6 @@ height: 5000px;
     margin: auto;
     width: 130px;
     margin-top: 20px;
-    
 }
 .portfolio-container-parent-overlay-icons a{
     display: block;
@@ -611,12 +610,10 @@ input[type="radio"]:checked {
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 .prices-container .title{
     margin-top: -10px;
-    
 }
 .prices-container{
     width: 100%;
     height: 100vh;
-    
 }
 .prices-container-parent{
     width: 80%;
@@ -625,7 +622,6 @@ input[type="radio"]:checked {
     padding: 50px 14px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: auto;
-    
 }
 .prices-container-parent-div{
     width: 30%;
@@ -711,7 +707,6 @@ input[type="radio"]:checked {
     /* border: 1px solid black; */
     position: relative;
     overflow: hidden;
-    
 }
 .Reviews-container-parent{
     width: 100%;
@@ -887,7 +882,7 @@ input[type="radio"]:checked {
     width: 20%;
     height: 50%;
     opacity: 0.2;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 .Creators-container-parent-div::before{
     position: absolute;
@@ -905,7 +900,7 @@ input[type="radio"]:checked {
     width: 70%;
     height: 22%;
     opacity: 0.2;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////// */
 .Insights-container .title{
