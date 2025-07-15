@@ -94,6 +94,10 @@ height: 5000px;
     transition: 0.5s;
     visibility: visible;
 }
+.blog-dropdown {
+  position: relative;
+  padding-bottom: 10px;
+}
 .header-dropdown{
     position: absolute;
     width: 150px;
@@ -101,8 +105,8 @@ height: 5000px;
     background-color: #0b384eeb;
     border-radius: 5px;
     padding: 5PX;
-    float: right;
-    margin:8px 0px 0px 532px;
+    top: 100%;
+    left: 0;
     visibility: hidden;
 }
 .header-dropdown-list li a{
@@ -182,7 +186,6 @@ height: 5000px;
     font-size: 50px;
     color: #905413ef;
     text-transform: capitalize;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: 'Courier New', Courier, monospace;
     margin-top: 75px;
     text-align: center;
@@ -438,7 +441,7 @@ height: 5000px;
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    transition: 0.5s;
+    transition: 1s;
 }
 .services-parent-div::before{
     position: absolute;
@@ -455,7 +458,7 @@ height: 5000px;
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    transition: 0.5s;
+    transition: 1s;
 }
 /* ////////////////////////////////////////////////////////////////////////////// */
 .why-container{
@@ -630,7 +633,7 @@ input[type="radio"]:checked {
 .prices-container-parent-div{
     width: 30%;
     text-align: center;
-    /* border: 1px solid #01589b ; */
+    border: 1px solid #01589b ;
     border-radius: 6px;
     padding: 18px 14px;
     position: relative;
@@ -700,7 +703,7 @@ input[type="radio"]:checked {
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    transition: 1s;
+    transition: 0.5s;
     visibility: visible;
 } 
 /* ////////////////////////////////////Reviews//////////////////////// */
