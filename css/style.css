@@ -137,7 +137,7 @@ height: 5000px;
 }
 .home-parent-title{
     font-size: 50px;
-    color: #9f6425ef;
+    color: #9f6425;
     /* color: rgb(251, 224, 192); */
     text-transform: capitalize;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -150,26 +150,23 @@ height: 5000px;
     padding: 12px;
 }
 .home-parent-btn{
-    width: 130px;
-    padding: 15PX;
-    border: 0;
-    border-radius: 6px;
-    font-size: 16px;
+    padding: 18pX 14px;
+    border-radius: 15px;
+    font-size: 17px;
     text-transform: capitalize ;
     cursor: pointer;
 }
 .btn1{
-    background-color: #0f4560df;
-    border: 1px solid #a0d1e9ae;
+    background-color: #0f4560ee;
+    /* border: 1px solid #a0d1e9; */
     color: #dd9a3e;
     margin-left: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn2{
-    background-color: #ebdca7d2;
-    border: 1px solid #945a1d89;
+    background-color:#e0b77cf5 ;
+    /* border: 2px solid #743c01fd; */
     color: #0b384e;
-    margin-left: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home-parent-btn:hover{
