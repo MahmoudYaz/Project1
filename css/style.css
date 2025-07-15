@@ -683,7 +683,7 @@ input[type="radio"]:checked {
     font-weight: bold;
     color: #fcb262;
     background-color: #01355ca2;
-    border: 0;
+    border:1px solid #fcb262;
     border-radius: 6px;
     padding: 10px;
 }
