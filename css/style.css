@@ -54,6 +54,9 @@ height: 5000px;
     border-radius: 15px;
     border: none;
     background-color: rgba(244, 214, 183, 0.544);
+    font-size: 14px;
+    padding-left: 45px;
+    color: #012949;
 }
 .header-list{
     list-style: none ;
@@ -875,8 +878,7 @@ input[type="radio"]:checked {
     right: 17px;
     background-color: #3e607a;
     border-radius: 6px;
-    opacity: 0.5; 
-    z-index: -1;
+    opacity: 0.5;
 }
 .Creators-container-parent-div:hover::after{
     width: 20%;
