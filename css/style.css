@@ -356,7 +356,7 @@ height: 5000px;
 .portfolio-container-parent-overlay p{
     padding: 10px 0px;
     color: #d69e61;
-    font-size: 24px;
+    font-size: 20px;
 }
 /* /////////////////////////////////////////////////////////////////////////////// */
 .services-container{
@@ -823,6 +823,7 @@ input[type="radio"]:checked {
 .Creators-container-parent-div-img img{
     width: 100%;
     border-radius: 6px;
+    z-index: -1;
 }
 .Creators-container-parent-div-icons{
     position: absolute;
@@ -835,6 +836,7 @@ input[type="radio"]:checked {
     visibility: hidden;
     transition: 1s ;
     opacity: 0;
+    z-index: 1;
 }
 .Creators-container-parent-div:hover .Creators-container-parent-div-icons{
     visibility: visible;
@@ -849,6 +851,10 @@ input[type="radio"]:checked {
     font-size: 24px ;
     margin-left: auto;
     border-radius: 50%;
+    cursor: pointer;
+}
+.a-insta{
+    margin: 5px 0px;
 }
 .Creators-container-parent-div-icons a i{
     line-height: 45px;
@@ -881,12 +887,12 @@ input[type="radio"]:checked {
     right: 17px;
     background-color: #3e607a;
     border-radius: 6px;
-    opacity: 0.5;
+    opacity: 1;
 }
 .Creators-container-parent-div:hover::after{
     width: 20%;
     height: 50%;
-    opacity: 0.2;
+    opacity: 0.3;
     transition: 0.8s;
 }
 .Creators-container-parent-div::before{
@@ -898,13 +904,13 @@ input[type="radio"]:checked {
     left: 55px; 
     background-color: #3e607a;
     border-radius: 6px;
-    opacity: 0.5;
+    opacity: 1;
     z-index: -1;
 }
 .Creators-container-parent-div:hover::before{
     width: 70%;
     height: 22%;
-    opacity: 0.2;
+    opacity: 0.3;
     transition: 0.8s;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////// */
