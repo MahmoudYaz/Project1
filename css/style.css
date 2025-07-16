@@ -333,16 +333,19 @@ height: 5000px;
     display: block;
     float: left;
     width: 50px;
-    height: 50px;
-    background-color: rgb(244, 214, 183);
-    color: #5c0101;
+    height: 40px;
+    background-color: rgba(244, 214, 183, 0.756);
+    color: rgba(128, 128, 128, 0.556);
     font-size: 28px ;
     line-height: 40px;
     margin: 0 5px;
     border-radius: 6px;
 }
+.portfolio-container-parent-overlay-icons .a1 {
+    color: rgb(154, 0, 0);
+}
 .portfolio-container-parent-overlay-icons a i{
-    line-height: 50px;
+    line-height: 40px;
 }
 .portfolio-container-parent-overlay h2{
     font-size: 30px;
