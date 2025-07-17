@@ -200,7 +200,6 @@ input::-webkit-search-cancel-button {
     overflow: auto;
     /* background-color: #97b8d1; */
     margin-top: 100px;
-   
 }
 .about-parent-div{
    position: relative;
@@ -559,7 +558,6 @@ input[type="radio"]:checked {
     /* border: 1px solid black; */
     position: relative;
     overflow: hidden;
-    
 }
 .stats-container-parent{
     width: 100%;
@@ -736,7 +734,6 @@ input[type="radio"]:checked {
     padding: 18px 14px;
     overflow: hidden;
     /* border: 1px solid rgb(179, 31, 31);  */
-
 }
 .Reviews-container-parent-div-div1{
     width: 120px;
