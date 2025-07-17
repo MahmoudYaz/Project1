@@ -12,7 +12,7 @@ height: 5000px;
     background-color:#0c2d3bb9;
     position: fixed;
     z-index: 10;
-    padding: 10px 10px;    
+    padding: 10px;    
 }
 .header-div-logo{
     width: 40px;
@@ -28,14 +28,14 @@ height: 5000px;
     color: #fec88e;
 }
 .header-div1{
+    position: relative;
+    float: left;
     width: 250px;
     height: 30px;
+    margin-left: 20px;
+    padding: 7px 20px;
     background-color: white;
     border-radius: 15px;
-    float: left;
-    padding: 7px 20px;
-    margin-left: 20px;
-    position: relative;  
 }
 .header-div1 i{
     font-size: 18px;
@@ -90,7 +90,7 @@ input::-webkit-search-cancel-button {
     position: absolute;
     content: "";
     width: 0;
-    height: 2;
+    height: 2px;
     bottom: -5px;
     left: 0;
     background-color: #efc496;
@@ -114,7 +114,7 @@ input::-webkit-search-cancel-button {
     height: 120px;
     background-color: #0b384eeb;
     border-radius: 5px;
-    padding: 5PX;
+    padding: 5px;
     top: 100%;
     left: 0;
     visibility: hidden;
@@ -126,7 +126,7 @@ input::-webkit-search-cancel-button {
 .blog-dropdown:hover .header-dropdown{
     visibility: visible;
 }
-/* ////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////  home  /////////////////////////////////////// */
 .home-parent{
     width: 100%;
     height: 100vh;
@@ -142,16 +142,11 @@ input::-webkit-search-cancel-button {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* background-color: #00c3ff00;
-    border: 1px solid black; */
 }
 .home-parent-title{
-    font-size: 50px;
+    font:bold 50px 'Courier New', Courier, monospace;
     color: #9f6425;
-    /* color: rgb(251, 224, 192); */
     text-transform: capitalize;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family: 'Courier New', Courier, monospace;
 }
 .home-parent-para{
     font-size: 18px;
@@ -160,29 +155,26 @@ input::-webkit-search-cancel-button {
     padding: 12px;
 }
 .home-parent-btn{
-    padding: 18pX 14px;
+    padding: 18px 14px;
     border-radius: 15px;
-    font-size: 17px;
+    font: 17px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: capitalize ;
+    letter-spacing: 0.5px;
     cursor: pointer;
 }
 .btn1{
     background-color: #0f4560ee;
-    /* border: 1px solid #a0d1e9; */
     color: #dd9a3e;
     margin-left: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn2{
     background-color:#e0b77cf5 ;
-    /* border: 2px solid #743c01fd; */
     color: #0b384e;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home-parent-btn:hover{
     opacity: 0.8;
 }
-/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////  about  /////////////////////////////////////////// */
 .about-container{
     width: 70%;
     height: 100vh;
@@ -190,10 +182,9 @@ input::-webkit-search-cancel-button {
     text-align: center;
 }
 .title{
-    font-size: 50px;
+    font: bold 50px 'Courier New', Courier, monospace;
     color: #905413ef;
     text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 75px;
     text-align: center;
 }
@@ -212,17 +203,17 @@ input::-webkit-search-cancel-button {
    
 }
 .about-parent-div{
+   position: relative;
+    float: left;
     width: 32%;
     height: 32%;
-    border: 1px solid #01345c ;
-    border-radius: 6px;
-    float: left;
-    position: relative;
     padding: 18px 14px;
     overflow: hidden;
+    border: 1px solid #01345c;
+    border-radius: 6px;
 }
 .div2{
-    margin: 0px 2%;
+    margin: 0 2%;
 }
 .about-parent-div i{
     font-size: 38px;
@@ -233,10 +224,9 @@ input::-webkit-search-cancel-button {
     color: #a26d34ef;
 }
 .about-parent-div-title{
-    font-size: 30px;
+    font: 30px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #a26d34ef;
     text-transform: capitalize;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .about-parent-div:hover .about-parent-div-title{
     color: #1b4b70;
@@ -278,7 +268,7 @@ input::-webkit-search-cancel-button {
     opacity: 0.1;
     transition: 0.5s;
 }
-/* ////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////  portfolio  ///////////////////////////////////// */
 .portfolio-container{
     width: 100%;
     height: 100vh;
@@ -368,7 +358,7 @@ input::-webkit-search-cancel-button {
     color: #d69e61;
     font-size: 20px;
 }
-/* /////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////  services  ////////////////////////////////////////// */
 .services-container{
     width: 100%;
     height: 100vh;
@@ -385,14 +375,14 @@ input::-webkit-search-cancel-button {
     margin-top: 23px;
 }
 .services-parent-div{
-    width: 30%;
-    height: 30%;
-    /* background-color: #5c010188; */
-    border: 1.5px solid #036cbd ;
-    border-radius: 6px;
-    overflow: hidden;
     position: relative;
     float: left;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+    border: 1.5px solid #036cbd;
+    border-radius: 6px;
+    /* background-color: #5c010188; */
 }
 .services-parent-div-div1{
     width: 20%;
@@ -472,7 +462,7 @@ input::-webkit-search-cancel-button {
     opacity: 0.1;
     transition: 0.8s;
 }
-/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////  why  ////////////////////////////////////////// */
 .why-container{
     width: 100%;
     height: 100vh;
@@ -515,10 +505,9 @@ input::-webkit-search-cancel-button {
     padding: 2% 40%;
 }
 .why-container-parent-div1 .title1{
-    font-size: 36px;
+    font: 36px 'Courier New', Courier, monospace;
     color: #905413ef;
     text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 50px;
 }
 .why-container-parent-div1 .underline1{
@@ -563,7 +552,7 @@ input[type="radio"]:checked {
 [type="radio"]:hover{
     background-color: #01345c;
 }
-/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////  stats  ///////////////////////////////////////////// */
 .stats-container{
     width: 100%;
     height: 100vh;
@@ -591,14 +580,13 @@ input[type="radio"]:checked {
     transform: translate(-50%,-50%);
 }
 .stats-container-parent-div{
+    float: left;
     width: 24%;
     height: 100%;
-    /* border: 1px solid rgb(179, 31, 31); */
-    text-align: center;
-    padding: 55px;
-    float: left;
     margin: auto;
-    
+    padding: 55px;
+    text-align: center;
+    /* border: 1px solid rgb(179, 31, 31); */
 }
 .statesdiv2{
     margin: 0% 1.33% 0% 1.33%;
@@ -608,22 +596,20 @@ input[type="radio"]:checked {
 }
 .stats-container-parent-div i{
     font-size: 50px;
-    color: #01345c;
     color: #fcb262;
     line-height: 80px;
 }
 .stats-container-parent-div h2{
-    font-size: 28px;
+    font: 28px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fde0c0;
     text-transform: capitalize;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .stats-container-parent-div p{
     font-size: 17px;
     color: #ffffff;
     letter-spacing: 1.5px;
 }
-/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////  prices  //////////////////////////////////////////// */
 .prices-container .title{
     margin-top: -10px;
 }
@@ -649,7 +635,7 @@ input[type="radio"]:checked {
     float: left;
 }
 .div6{
-    margin: 0px 5%;
+    margin: 0 5%;
 }
 .prices-container-parent-div-prices{
     width: 120px;
@@ -716,7 +702,7 @@ input[type="radio"]:checked {
     transition: 0.8s;
     visibility: visible;
 } 
-/* ////////////////////////////////////Reviews////////////////////////////////////////////// */
+/* ////////////////////////////////////  Reviews  ////////////////////////////////////////////// */
 .Reviews-container{
     width: 100%;
     height: 100vh;
@@ -744,13 +730,13 @@ input[type="radio"]:checked {
     transform: translate(-50%,-50%);
 }
 .Reviews-container-parent-div{
+    float: left;
     width: 47%;
     height: 100%;
-    /* border: 1px solid rgb(179, 31, 31);  */
     padding: 18px 14px;
-    float: left;
     overflow: hidden;
-    
+    /* border: 1px solid rgb(179, 31, 31);  */
+
 }
 .Reviews-container-parent-div-div1{
     width: 120px;
@@ -796,7 +782,7 @@ input[type="radio"]:checked {
 .destancediv{
     margin-left: 6%;
 }
-/* //////////////////////////////////////Creators////////////////////////////////// */
+/* //////////////////////////////////////  Creators  ////////////////////////////////// */
 .Creators-container .title{
     margin-top: -10px;   
 }
@@ -814,13 +800,13 @@ input[type="radio"]:checked {
     margin-top: 25px;
 }
 .Creators-container-parent-div{
+    position: relative;
+    float: left;
     width: 30%;
+    padding: 18px 14px;
     text-align: center;
     border: 1px solid #3e607a79;
     border-radius: 6px;
-    padding: 18px 14px;
-    position: relative;
-    float: left;
 }
 .div7{
     margin: 0px 5%;
@@ -923,7 +909,7 @@ input[type="radio"]:checked {
     opacity: 0.3;
     transition: 0.8s;
 }
-/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////  Insights  ////////////////////////////////////////////// */
 .Insights-container .title{
     margin-top: -10px;   
 }
@@ -941,13 +927,13 @@ input[type="radio"]:checked {
     margin-top: 25px;
 }
 .Insights-container-parent-div{
+    position: relative;
+    float: left;
     width: 30%;
+    padding: 18px 5px 0px 5px;
     text-align: center;
     border: 1px solid #3e607a79;
     border-radius: 6px;
-    padding: 18px 5px 0px 5px;
-    position: relative;
-    float: left;
 }
 .div7{
      margin: 0px 5%;
@@ -1007,10 +993,7 @@ input[type="radio"]:checked {
     opacity: 0.2;
     transition: 0.8s;
 }
-.fff{
-    margin-left:  40px;
-}
-.ggg{
+.ml-40{
     margin-left:  40px;
 }
 .Insights-container-parent-div-info a{
@@ -1021,7 +1004,7 @@ input[type="radio"]:checked {
     line-height: 80px;
     font-weight: bold;
 }
-/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////  Footer  ///////////////////////////////////////////// */
 .Footer-container{
     width: 100%;
     height: 50vh;
