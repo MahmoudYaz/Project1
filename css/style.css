@@ -58,6 +58,13 @@ height: 5000px;
     padding-left: 45px;
     color: #012949;
 }
+input::-webkit-search-cancel-button {
+  display: none;
+}
+[type="search"]:focus {
+  outline: none;
+  border: 2px solid #fec88e;
+}
 .header-list{
     list-style: none ;
     float: right;
