@@ -665,7 +665,7 @@ input[type="radio"]:checked {
     color: #01345c;
 }
 .prices-para3{
-     margin-top: 20px;
+    margin-top: 20px;
     font-size: 20px;
     color: #014070;
 }
@@ -679,6 +679,10 @@ input[type="radio"]:checked {
     border:1px solid #fcb262;
     border-radius: 6px;
     padding: 10px;
+    cursor: pointer;
+}
+.prices-container-parent-div button:hover{
+    background-color: #01589bbd;
 }
 .prices-container-parent-div::after{
     position: absolute;
@@ -966,6 +970,9 @@ input[type="radio"]:checked {
     font-size: 16px;
     color: #294458;
 }
+.Insights-container-parent-div:hover .Insights-container-parent-div-info span{
+    color: #01345c;
+}
 .Insights-container-parent-div:hover .Insights-container-parent-div-info h2{
     color: #905413ef;
 }
@@ -979,7 +986,7 @@ input[type="radio"]:checked {
     height: 0;
     top: 0;
     right: 0;
-    background-color: #3e607a;
+    background-color: #3e607a;  
     border-radius: 6px;
     opacity: 0.5;
     z-index: -1; 
