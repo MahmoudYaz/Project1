@@ -96,12 +96,12 @@ input::-webkit-search-cancel-button {
     background-color: #efc496;
     opacity: 0;
     visibility: hidden;
+    transition: 0.8s;
 }
 .header-list li a:hover::after{
     width: 100%;
     height: 2px;
     opacity: 0.9;
-    transition: 0.8s;
     visibility: visible;
 }
 .blog-dropdown {
@@ -259,13 +259,13 @@ input::-webkit-search-cancel-button {
     left: 0;
     background-color: #1b4b70;
     opacity: 0;
+    transition: 0.8s;
     z-index: -1;
 }
 .about-parent-div:hover::after{
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    transition: 0.5s;
 }
 /* /////////////////////////////////  portfolio  ///////////////////////////////////// */
 .portfolio-container{
@@ -309,7 +309,7 @@ input::-webkit-search-cancel-button {
     bottom: 0;
     right: 0;
     visibility: hidden;
-    transition: 0.8s ;
+    transition: 0.8s;
     opacity: 0;
     padding: 18px 14px;
 }
@@ -435,14 +435,14 @@ input::-webkit-search-cancel-button {
     top: 0;
     left: 0;
     background-color: #f5d8b9;
-    opacity: 0; 
+    opacity: 0;
+    transition: 1s;
     z-index: -1;
 }
 .services-parent-div:hover::after{
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    transition: 0.8s;
 }
 .services-parent-div::before{
     position: absolute;
@@ -452,14 +452,14 @@ input::-webkit-search-cancel-button {
     right: 0;
     bottom: 0;
     background-color: #3e607af8;
-    opacity: 0; 
+    opacity: 0;
+    transition: 1s;
     z-index: -1;
 }
 .services-parent-div:hover::before{
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    transition: 0.8s;
 }
 /* ////////////////////////////////////  why  ////////////////////////////////////////// */
 .why-container{
@@ -694,6 +694,7 @@ input[type="radio"]:checked {
     background-color: #f5d8b9;
     background-color: #01355c;
     opacity: 0;
+    transition: 0.8s;
     visibility: hidden;
     z-index: -1;
 }
@@ -701,7 +702,6 @@ input[type="radio"]:checked {
     width: 100%;
     height: 100%;
     opacity: 0.4;
-    transition: 0.8s;
     visibility: visible;
 } 
 /* ////////////////////////////////////  Reviews  ////////////////////////////////////////////// */
@@ -884,13 +884,13 @@ input[type="radio"]:checked {
     right: 17px;
     background-color: #3e607a;
     border-radius: 6px;
-    opacity: 1;
+    opacity: 0;
+    transition: 0.8s;
 }
 .Creators-container-parent-div:hover::after{
     width: 20%;
     height: 50%;
     opacity: 0.3;
-    transition: 0.8s;
 }
 .Creators-container-parent-div::before{
     position: absolute;
@@ -901,14 +901,14 @@ input[type="radio"]:checked {
     left: 55px; 
     background-color: #3e607a;
     border-radius: 6px;
-    opacity: 1;
+    opacity: 0;
+    transition: 0.8s;
     z-index: -1;
 }
 .Creators-container-parent-div:hover::before{
     width: 70%;
     height: 22%;
     opacity: 0.3;
-    transition: 0.8s;
 }
 /* /////////////////////////////////////////  Insights  ////////////////////////////////////////////// */
 .Insights-container .title{
@@ -988,14 +988,14 @@ input[type="radio"]:checked {
     right: 0;
     background-color: #3e607a;  
     border-radius: 6px;
-    opacity: 0.5;
-    z-index: -1; 
+    opacity: 0;
+    transition: 0.8s;
+    z-index: -1;
 }
 .Insights-container-parent-div:hover::after{
     width: 100%;
     height: 100%;
     opacity: 0.2;
-    transition: 0.8s;
 }
 .ml-40{
     margin-left:  40px;
