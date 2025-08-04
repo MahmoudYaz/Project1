@@ -161,18 +161,19 @@ input::-webkit-search-cancel-button {
     text-transform: capitalize ;
     letter-spacing: 0.5px;
     cursor: pointer;
+    border: none;
 }
 .btn1{
-    background-color: #0f4560ee;
+    background-color: #0f4560f7;
     color: #dd9a3e;
     margin-left: 12px;
 }
 .btn2{
-    background-color:#e0b77cf5 ;
+    background-color:#e0b67cf9 ;
     color: #0b384e;
 }
 .home-parent-btn:hover{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 /* ///////////////////////////////////////  about  /////////////////////////////////////////// */
 .about-container{
@@ -309,7 +310,7 @@ input::-webkit-search-cancel-button {
     bottom: 0;
     right: 0;
     visibility: hidden;
-    transition: 0.8s;
+    transition: 0.5s;
     opacity: 0;
     padding: 18px 14px;
 }
@@ -844,15 +845,18 @@ input[type="radio"]:checked {
     width: 45px;
     height: 45px;
     background-color: #ffce9a;
+    background-color: #007ad8;
+    background-color: #01355c;
     color: #01355c;
+    color: white;
     font-size: 24px ;
     margin-left: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     cursor: pointer;
 }
-.a-insta{
+/* .a-insta{
     margin: 5px 0px;
-}
+} */
 .Creators-container-parent-div-icons a i{
     line-height: 45px;
 }
@@ -878,36 +882,18 @@ input[type="radio"]:checked {
 .Creators-container-parent-div::after{
     position: absolute;
     content: "";
-    width: 0;
+    width: 100%;
     height: 0;
-    top: 5px;
-    right: 17px;
+    top: 0px;
+    right: 0px;
     background-color: #3e607a;
     border-radius: 6px;
     opacity: 0;
     transition: 0.8s;
 }
 .Creators-container-parent-div:hover::after{
-    width: 20%;
-    height: 50%;
-    opacity: 0.3;
-}
-.Creators-container-parent-div::before{
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    bottom: 10px;
-    left: 55px; 
-    background-color: #3e607a;
-    border-radius: 6px;
-    opacity: 0;
-    transition: 0.8s;
-    z-index: -1;
-}
-.Creators-container-parent-div:hover::before{
-    width: 70%;
-    height: 22%;
+    width: 100%;
+    height: 100%;
     opacity: 0.3;
 }
 /* /////////////////////////////////////////  Insights  ////////////////////////////////////////////// */
